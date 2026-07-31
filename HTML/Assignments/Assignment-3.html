@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment-3 </title>
+</head>
+<body>
+     <!-- This is Assignment-3 of HTML -->
+
+    <table border="black" >
+        <caption>Student Information</caption>
+
+        <tr>
+            <th rowspan="6">Info</th>
+            <th rowspan="2">Name</th>
+            <th colspan="2">Address</th>
+        </tr>
+
+        <tr>
+            <th>City</th>
+            <th>House</th>
+        </tr>
+
+        <tr>
+            <td>A</td>
+            <td>Dehli</td>
+            <td>1</td>
+        </tr>
+
+        <tr>
+            <td>B</td>
+            <td>Mumbai</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+            <td>C</td>
+            <td>Kolkata</td>
+            <td>3</td>
+        </tr>
+
+        <tr>
+            <td>D</td>
+            <td>Pune</td>
+            <td>4</td>
+        </tr>
+    </table>
+
+    <hr>
+    <br>
+
+    <form>
+        <label for="name">Name:</label>
+        <input type="text">
+
+        <br>
+
+        <label for="sex">Sex:</label>
+        <input type="radio" name="sex" id="Male">
+        <label for="sex">Male</label>
+        <input type="radio" name="sex" id="Female">
+        <label for="sex">Female</label>
+
+        <br>
+
+        <label for="country">Country:</label>
+        <select name="country" id="country">
+            <option value="placeholder">Select an option</option>
+            <option value="npl">Nepal</option>
+            <option value="Ind">India</option>
+            <option value="usa">USA</option>
+        </select>
+
+        <br>
+
+        <label for="mesg">Message:</label>
+        <br>
+        <textarea name="mesg" id="mesg" cols="30" rows="4"></textarea>
+        
+
+        <br>
+
+        <input type="checkbox">
+        <label for="subscribe">Subscribe?</label>
+        
+
+        <br>
+
+        <button>Submit</button>
+
+    </form>
+</body>
+</html>
