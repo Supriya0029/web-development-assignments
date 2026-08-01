@@ -1,0 +1,46 @@
+/* Topic CSS Part-1 */
+/* Assignment */
+
+/* universal selector */
+
+*{
+    background-color: wheat;
+    font-family: Georgia;
+}
+
+h1{
+    color: red;
+    text-align: center;
+}
+
+h3{
+    color: #000;
+    text-align: center;
+}
+
+p{
+    color: #a52a2a;
+    line-height: 30px;
+    text-align: center;
+}
+
+a{
+    color: rgb(0, 128, 0);
+    text-decoration: none;
+}
+
+button{
+    background-color: white;
+    color: blueviolet;
+}
+
+textarea{
+    color: #000;
+}
+
+/* puttheword‘Ozymandias’insideaspanelement.
+Andthensetthepropertytext-
+decorationforthespanelement. */
+span{
+    text-decoration: underline;
+}
