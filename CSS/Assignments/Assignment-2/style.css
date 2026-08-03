@@ -1,0 +1,46 @@
+/* Topic CSS  Part - 2 */
+/* Assignment */
+/* PART A (Selector) */
+
+
+*{
+    text-align: center;
+}
+
+#mainTopic{
+    color: #0000ff;
+}
+
+.heading{
+    font-family: Georgia;
+}
+
+.text{
+    background-color: cornflowerblue;
+    color: white;
+}
+
+div>button{
+    background-color: purple;
+    color: azure;
+}
+
+/* PART B (Pseduo class and element) */
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+
+p:nth-child(odd){
+    color: yellow;
+}
+
+h1::first-letter{
+    color: red;
+}
+
+#yes:checked + label{
+    color: darkgreen;
+    font-weight: bold;
+}
